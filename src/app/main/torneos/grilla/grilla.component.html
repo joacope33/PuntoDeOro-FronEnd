@@ -1,0 +1,115 @@
+<div class="container-fluid w-100 h-100 m-5 d-flex flex-column">
+  <div class="tournament-bracket">
+    <div class="bracket-rows- text-black">
+      @for (fila of rondas; track $index) {
+
+        <!-- 🔹 Fila de nombres de ronda -->
+        <div class="bracket-row round-names">
+          @for (ronda of fila; track $index) {
+            <div class="round-name text-center  fw-bold">
+              {{ ronda.nombre }}
+            </div>
+          }
+        </div>
+
+        <!-- 🔹 Fila con los partidos de cada ronda -->
+        <div class="bracket-row">
+          @for (ronda of fila; track $index) {
+            <div class="round-wrapper" [attr.round-name]="ronda.nombre">
+
+              @for (partido of ronda.partidos; track $index) {
+                <div class="match-wrapper"
+                     [class.even]="$even"
+                     [class.odd]="$odd"
+                     [attr.match-order]="$index">
+
+                  <div class="match-body">
+                    <div class="sides">
+                      <!-- Equipo 1 -->
+                      <div class="side-wrapper"
+                           [class.winner]="partido.ganador"
+                           [class.looser]="!partido.ganador"
+                           [class.highlighted]="partido.highlighted && appearsInEquipo1(partido)"
+                           [attr.contestant-id]="partido.ganadorId">
+
+                        <div class="side-info-item entry-status"></div>
+
+                        <div class="side-info-item players-info">
+                          @for (jugador of partido.equipo1; track $index) {
+                            <div class="player-wrapper" (click)="highlightByName(jugador.nombre)">
+                              <div class="nationality">
+                                <img [src]="jugador.bandera" style="width: 20px;" alt="Bandera">
+                              </div>
+                              <div class="player-title">{{ jugador.nombre }}</div>
+                            </div>
+                          }
+                        </div>
+
+                        <div class="side-info-item winner-mark"></div>
+
+                        <div class="side-info-item side-scores">
+                          @for (score of partido.scores1; track $index) {
+                            <div class="single-score-wrapper" [class.winner]="partido.ganador">
+                              <div class="side-own-single-score">
+                                <span class="main-score">{{ score.own }}</span>
+                              </div>
+                            </div>
+                          }
+                        </div>
+
+                        <div class="side-info-item current-score"></div>
+                        <div class="side-info-item serving-mark hidden transparent"></div>
+                      </div>
+
+                      <!-- Equipo 2 -->
+                      <div class="side-wrapper"
+                           [class.winner]="!partido.ganador"
+                           [class.looser]="partido.ganador"
+                           [class.highlighted]="partido.highlighted && appearsInEquipo2(partido)"
+                           [attr.contestant-id]="partido.perdedorId">
+
+                        <div class="side-info-item entry-status"></div>
+
+                        <div class="side-info-item players-info">
+                          @for (jugador of partido.equipo2; track $index) {
+                            <div class="player-wrapper" (click)="highlightByName(jugador.nombre)">
+                              <div class="nationality">
+                                <img [src]="jugador.bandera" style="width: 20px;" alt="Bandera">
+                              </div>
+                              <div class="player-title">{{ jugador.nombre }}</div>
+                            </div>
+                          }
+                        </div>
+
+                        <div class="side-info-item winner-mark"></div>
+
+                        <div class="side-info-item side-scores">
+                          @for (score of partido.scores2; track $index) {
+                            <div class="single-score-wrapper" [class.winner]="!partido.ganador">
+                              <div class="side-own-single-score">
+                                <span class="main-score">{{ score.own }}</span>
+                              </div>
+                            </div>
+                          }
+                        </div>
+
+                        <div class="side-info-item current-score"></div>
+                        <div class="side-info-item serving-mark hidden transparent"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="match-lines-area" [class.highlighted]="partido.highlightLine">
+                    <div class="line-wrapper upper"[class.highlighted]="partido.highlightLine && $odd"></div>
+                    <div class="line-wrapper lower"[class.highlighted]="partido.highlightLine && $even"></div>
+                  </div>
+                </div>
+              }
+            </div>
+          }
+        </div>
+
+      }
+    </div>
+  </div>
+</div>

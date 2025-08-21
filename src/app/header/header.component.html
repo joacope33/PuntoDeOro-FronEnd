@@ -1,0 +1,126 @@
+<nav class="navbar navbar-expand-md">
+  <div
+    class="container-fluid d-flex justify-content-between align-items-center"
+  >
+    <!-- Logo y nombre -->
+    <a
+      class="navbar-brand fw-bold d-flex align-items-center"
+      [routerLink]="['/']"
+    >
+      Punto Oro
+      <img
+        src="/assets/logo.png"
+        alt="Avatar Logo"
+        id="hover-icon"
+        class="rounded-circle border border-dark shadow ms-2"
+        style="width: 2.31rem;"
+      />
+    </a>
+
+    <!-- Botón de menú en móviles -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menú principal -->
+    <div
+      class="collapse navbar-collapse justify-content-center"
+      id="navbarResponsive"
+    >
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" [routerLink]="['/']">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/calendar']">Turnos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/torneos']">Torneos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="javascript:void(0)"
+            id="navbarDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            [routerLink]="['/ranking']"
+          >
+            Ranking
+          </a>
+          <ul
+            class="dropdown-menu text-center"
+            aria-labelledby="navbarDropdown"
+          >
+            <li>
+              <a class="dropdown-item" [routerLink]="['/ranking/male']"
+                >Masculino</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" [routerLink]="['/ranking/female']"
+                >Femenino</a
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Botón de perfil -->
+    <div class="dropdown me-4">
+      <button
+        class="btn btn-link"
+        type="button"
+        id="navbarDropdown"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        <img
+          src="/assets/pelota.png"
+          alt="Logo Menu"
+          class="rounded-circle border border-dark shadow"
+          style="width: 2.31rem;background:white;"
+        />
+      </button>
+      <ul
+        class="dropdown-menu dropdown-menu-sm-start text-center"
+        aria-labelledby="navbarDropdown"
+      >
+        <li><a class="dropdown-item" [routerLink]="['/']">Mi perfil</a></li>
+        <li>
+          <a class="dropdown-item" [routerLink]="['/canchas']">Configuración</a>
+        </li>
+        <li>
+          <a class="dropdown-item" [routerLink]="['/login']">Cerrar Sesión</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Botón de cambio de tema -->
+    <div class="ms-2">
+      <button
+        class="btn btn-link"
+        type="button"
+        aria-expanded="false"
+        (click)="toggleTheme()"
+      >
+        <img
+          src="/assets/{{ urlIconTheme }}"
+          alt="Avatar Logo"
+          class="icon rounded-circle"
+          style="width: 2.31rem;"
+        />
+      </button>
+    </div>
+  </div>
+</nav>

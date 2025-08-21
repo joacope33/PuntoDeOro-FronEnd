@@ -1,0 +1,296 @@
+.tournament-bracket {
+  overflow-x: auto;
+  padding: 5vw;
+  white-space: nowrap;
+}
+
+.matches-positioner {
+  display: flex;
+  width: 166.667%;
+  margin-left: 0%;
+}
+
+.bracket-root .round-wrapper {
+  position: relative;
+  display: grid;
+  align-items: center;
+}
+
+.match-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100%;
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  min-height: 10%;
+  box-sizing: border-box;
+}
+
+.match-body {
+  border-radius: 0.025vw;
+  background: white;
+  max-width: 100%;
+}
+
+.sides {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.side-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 0.20vw;
+    border-radius: 0.15vw;
+    min-width: 10vw;
+    max-width: 15vw;
+    width: 10.5vw;
+    height: 4.01vw;
+}
+
+.winner {
+  background-color: #e8f5e949;
+}
+
+.loser {
+  background-color: #ffebee;
+}
+
+.highlighted:hover {
+  background-color: #b49058;
+}
+.highlighted {
+  background-color: #b49058 !important;
+}
+
+.players-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.player-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 0.1vw 0;
+}
+
+.nationality {
+margin-right: 0.25vw;}
+
+.player-title {
+  font-size: 0.73vw;
+}
+
+.side-scores {
+  display: flex;
+  margin-left: 0.52vw;
+}
+
+.single-score-wrapper {
+  display: flex;
+padding: 0 0.15vw;}
+
+.side-own-single-score,
+.opponent-single-score {
+padding: 0 0.15vw;}
+
+.winner .side-own-single-score {
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.match-lines-area {
+  position: absolute;
+  top: 50%;
+  left: -1.3vw;;
+  width: 123%;
+  height: 0.10vw;;
+  background-color: #999;
+  transform: translateY(-50%);
+}
+
+.line-wrapper {
+  position: absolute;
+  height: 50%;
+  border-right: 0.15vw solid #999;
+}
+
+
+.default-winner-svg {
+  fill: #4caf50;
+  margin-left: 0.25vw;
+}
+
+.bracket-rows {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+   
+}
+
+.bracket-row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.round-wrapper {
+  display: grid;
+  justify-content: center;
+  grid-auto-rows: minmax(8vw, 1fr);
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(8vw, 1fr));
+  min-width: 8vw;
+  gap: 1vw;
+
+}
+
+.match-wrapper.even .line-wrapper.lower {
+bottom: -4.5vw;
+height: 4.5vw;
+  border-top: 0.10vw solid #999;
+}
+
+.match-wrapper.odd .line-wrapper.upper {
+  top: -4.5vw;
+height: 4.5vw; 
+  border-bottom: 0.10vw solid #999;
+}
+
+.line-wrapper.upper {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 0.10vw;
+  height: 25%;
+  /* llega hasta el centro del wrapper */
+  background-color: #999;
+  transform: translateX(-50%);
+}
+
+.line-wrapper.lower {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  width: 0.10vw;
+  height: 25%;
+  /* igual que la upper, pero hacia abajo */
+  background-color: #999;
+  transform: translateX(-50%);
+}
+
+.round-wrapper:first-of-type .match-lines-area {
+    left: 0%;
+    width: 121%;
+
+}
+
+.round-wrapper[round-name="R16"] .match-wrapper.even .line-wrapper.lower {
+  bottom: -9vw;   
+  height: 9vw;
+  border-top: 0.10vw solid #999;
+}
+
+.round-wrapper[round-name="R16"] .match-wrapper.odd .line-wrapper.upper {
+  top: -9vw;   
+  height: 9vw;
+  border-bottom: 0.10vw solid #999;
+}
+
+.round-wrapper .match-lines-area{
+    position: absolute;
+    top: 50%;
+    left: -13%;
+    width: 133%;
+    height: 0.15vw;
+    background-color: rgb(153, 153, 153);
+    transform: translateY(-50%);
+}
+
+
+.side-wrapper .winner .highlighte {
+  background-color: #b49058;
+}
+
+
+.round-wrapper[round-name="R8"] .match-wrapper.even .line-wrapper.lower {
+  bottom: calc(-9vw * 2);
+  height: calc(9vw * 2);
+  border-top: 0.15vw solid #999;
+}
+
+.round-wrapper[round-name="R8"] .match-wrapper.odd .line-wrapper.upper {
+  top: calc(-9vw * 2);
+  height: calc(9vw * 2);
+  border-bottom: 0.15vw solid #999;
+}
+
+
+
+.round-wrapper[round-name="Cuartos"] .match-wrapper.even .line-wrapper.lower {
+  bottom: calc(-9vw * 4);
+  height: calc(9vw * 4);
+  border-top: 0.15vw solid #999;
+}
+
+.round-wrapper[round-name="Cuartos"] .match-wrapper.odd .line-wrapper.upper {
+  top: calc(-9vw * 4);
+  height: calc(9vw * 4);
+  border-top: 0.15vw solid #999;
+}
+
+
+.round-wrapper[round-name="Semifinal"] .match-wrapper.even .line-wrapper.lower {
+  bottom: calc(-9vw * 8);
+  height: calc(9vw * 8);
+  border-top: 0.15vw solid #999;
+}
+
+.round-wrapper[round-name="Semifinal"] .match-wrapper.odd .line-wrapper.upper {
+  top: calc(-9vw * 8);
+  height: calc(9vw * 8);
+  border-top: 0.15vw solid #999;
+}
+
+
+.round-wrapper[round-name="Final"] .match-wrapper.even .line-wrapper.lower {
+display: none;
+}
+
+.round-wrapper[round-name="Final"] .match-wrapper.odd .line-wrapper.upper {
+display: none;
+}
+
+.round-wrapper[round-name="Final"] .match-lines-area{
+    position: absolute;
+    top: 50%;
+    left: -14%;
+    width: 114%;
+    height: 0.15vw;
+    background-color: rgb(153, 153, 153);
+    transform: translateY(-50%)
+}
+
+.round-names{
+  font-size: xx-large;
+  font-family: sans-serif;
+  color: #b49058;
+  border-bottom: 0.15vw solid #b49058;
+  min-width: 100%;
+
+}
+
+.line-wrapper.highlighted {
+  background-color: #b49058 !important;   /* dorado */
+  border-color: #b49058 !important;
+}

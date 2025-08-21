@@ -1,0 +1,49 @@
+.calendar-header {
+  font-weight: bold;
+  padding: 1vw;
+  border: 0.1vw solid #ccc;
+  height: auto;
+  width: auto;
+  font-size: 1vw; /* Ajuste del tamaño de la fuente */
+  text-align: center;
+}
+#calendar-grid {
+  margin-top: 1vw;
+}
+
+.calendar-cell {
+  border: 0.1vw solid #ddd;
+  padding: 0.1vw;
+  min-height: 5vh; /* Ajuste para que las celdas sean más altas y legibles */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw; /* Ajustar el tamaño del texto */
+}
+
+.event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: linear-gradient(to right, #c0c0c0, #292c2f);
+  padding: 3vw;
+  height: auto;
+  width: 100%; /* Asegurar que ocupe el 100% del ancho disponible */
+  max-width: 1200px; /* Limitar el ancho máximo */
+  margin: 0 auto; /* Centrar el contenedor */
+}
+.gblue {
+  background-color: blue !important;
+}
+.bg-orange {
+  background-color: orange;
+}
+.bg-transparent {
+  background-color: #ffffff00;
+}
+.bg-green {
+  background-color: green;
+}

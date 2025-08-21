@@ -1,0 +1,39 @@
+:root {
+  --color-magenta: hsl(293, 83%, 57%);
+  --color-titulares-ranking: #800020c4;
+  --color-canchas-background: #3f48cc;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-link:hover {
+  color: white !important;
+  background-color: var(--color-magenta);
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+img:hover {
+  color: white;
+  background-color: var(--color-magenta);
+  border-radius: 7px;
+}
+
+svg:hover {
+  background-color: rgba(148, 122, 151, 0.397);
+  border-radius: 9px;
+}
+li a:hover {
+  color: white !important;
+  background-color: var(--color-magenta, #a025b6) !important;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.g-blue {
+  background: rgb(29, 29, 165);
+}
+.g-green {
+  background: green;
+}
+.gorange {
+  background: orange;
+}

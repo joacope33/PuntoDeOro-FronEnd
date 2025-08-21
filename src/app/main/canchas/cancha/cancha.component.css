@@ -1,0 +1,152 @@
+.container-fluid .court-general {
+  max-width: 300px;
+  max-height: 180px;
+  width: 15vw;
+  height: 9.3vw;
+  background: var(--color-canchas-background);
+}
+
+.container-fluid .court {
+  max-width: 270px;
+  max-height: 160px;
+  width: 13.5vw;
+  height: 8.37vw;
+  background: white;
+}
+.container-fluid .side-left,
+.container-fluid .side-right {
+  max-width: 130px;
+  max-height: 160px;
+  width: 6.55vw;
+  height: 8.1vw;
+  background: var(--color-canchas-background);
+}
+.container-fluid .side-left-back {
+  height: 8.1vw;
+  width: 2vw;
+  background: var(--color-canchas-background);
+}
+
+.container-fluid .side-left-line {
+  height: 8.1vw;
+  width: 0.125vw;
+  background: white;
+}
+
+.container-fluid .side-left-forward {
+  height: 8.1vw;
+  width: 4.55vw;
+  background: var(--color-canchas-background);
+}
+
+.container-fluid .side-left-forward-left {
+  height: 3.9875vw;
+  width: 4.55vw;
+  background: var(--color-canchas-background);
+}
+
+.container-fluid .side-left-forward-line-center {
+  height: 0.125vw;
+  width: 4.55vw;
+  background: white;
+}
+
+.container-fluid .side-left-forward-right {
+  height: 3.9875vw;
+  width: 4.55vw;
+  background: var(--color-canchas-background);
+}
+
+.container-fluid .net {
+  height: 9vw;
+  width: 0.125vw;
+  background: white;
+}
+
+.container-fluid .side-right-forward {
+  height: 8.1vw;
+  width: 4.55vw;
+  background: var(--color-canchas-background);
+}
+
+.container-fluid .side-right-forward-right {
+  height: 3.9875vw;
+  width: 4.55vw;
+  background: var(--color-canchas-background);
+}
+
+.container-fluid .side-right-line-center {
+  height: 0.125vw;
+  width: 4.55vw;
+  background: white;
+}
+
+.container-fluid .side-right-forward-left {
+  height: 3.9875vw;
+  width: 4.55vw;
+  background: var(--color-canchas-background);
+}
+
+.container-fluid .side-right-line {
+  height: 8.1vw;
+  width: 0.125vw;
+  background: white;
+}
+
+.container-fluid .side-right-back {
+  height: 8.1vw;
+  width: 2vw;
+  background: var(--color-canchas-background);
+}
+
+.cancha {
+  width: clamp(150px, 20vw, 300px);
+  height: clamp(100px, 15vw, 250px);
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.5vw;
+  border: solid rgba(153, 149, 149, 0.109);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15); /* X, Y, difuminado, color */
+}
+.cancha:hover {
+  box-shadow: inset;
+}
+
+.cancha .container-fluid {
+  height: 100%; /* Para que ocupe todo el espacio disponible */
+}
+
+.alert:hover {
+  height: 100%; /* Para mantener el mismo tamaño que la cancha */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cerrada {
+  pointer-events: none; /* Deshabilita interacción */
+  user-select: none;
+}
+.Disponible:hover {
+  background-color: #47a14a;
+  color: white;
+}
+.Mantenimiento:hover {
+  background-color: #ffc107;
+  color: #333;
+}
+@media (max-width: 768px) {
+  .cancha {
+    width: 80%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .container-fluid .court-general {
+    width: 90%;
+    height: auto;
+  }
+}

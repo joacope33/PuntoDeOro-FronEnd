@@ -1,0 +1,49 @@
+<div class="cancha text-center py-1 my-1 fw-bold" [ngClass]="estado">
+  <div class="cancha-info">
+    Cancha N°{{ numero }} - {{ nombre }}
+    <p>Estado: {{ estado }}</p>
+  </div>
+
+  <!-- Solo mostrar la cancha si no está cerrada -->
+  <div
+    *ngIf="estado !== 'Cerrada'"
+    class="container-fluid d-flex justify-content-center m-2"
+  >
+    <div class="court-general d-flex justify-content-center align-items-center">
+      <div class="court d-flex justify-content-center align-items-center">
+        <div class="side-left d-flex justify-content-center align-items-center">
+          <div class="side-left-back"></div>
+          <div class="side-left-line"></div>
+          <div
+            class="side-left-forward d-block justify-content-center align-items-center"
+          >
+            <div class="side-left-forward-left"></div>
+            <div class="side-left-forward-line-center"></div>
+            <div class="side-left-forward-right"></div>
+          </div>
+        </div>
+
+        <div class="net"></div>
+
+        <div
+          class="side-right d-flex justify-content-center align-items-center"
+        >
+          <div
+            class="side-right-forward d-block justify-content-center align-items-center"
+          >
+            <div class="side-right-forward-right"></div>
+            <div class="side-right-line-center"></div>
+            <div class="side-right-forward-left"></div>
+          </div>
+          <div class="side-right-line"></div>
+          <div class="side-right-back"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mensaje cuando la cancha esté cerrada -->
+  <div *ngIf="estado === 'Cerrada'" class="alert alert-danger m-2">
+    🚧 Cancha cerrada. No disponible para jugar. 🚧
+  </div>
+</div>

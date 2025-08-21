@@ -1,0 +1,18 @@
+.footer-row {
+  white-space: nowrap;
+}
+@media (max-width: 767px) {
+  .p {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+}
+@media (min-width: 768px) {
+  .p {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
+p{
+  font-weight: bold;
+}

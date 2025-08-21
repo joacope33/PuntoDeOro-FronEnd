@@ -1,0 +1,54 @@
+<div class="container d-flex justify-content-center align-items-center p-0">
+  <div
+    class="card p-4"
+    style="width: 400px; border-radius: 4px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"
+  >
+    <div>
+      <h1 class="text-center p-2">Guardar Turno</h1>
+    </div>
+    <form class="row g-3" (ngSubmit)="onSubmit()">
+      <div class="col-12">
+        <label class="form-label fw-bold">Jugador</label>
+        <select
+          class="form-select"
+          name="jugador"
+          [(ngModel)]="turnoData.jugador"
+          required
+        >
+          <option *ngFor="let jugador of jugadores" [value]="jugador">
+            {{ jugador }}
+          </option>
+        </select>
+      </div>
+      <div class="col-12">
+        <label class="form-label fw-bold">Fecha y Hora</label>
+        <input
+          type="datetime-local"
+          class="form-control"
+          name="fechaHora"
+          [(ngModel)]="turnoData.fechaHora"
+          required
+        />
+      </div>
+      <div class="col-12">
+        <label class="form-label fw-bold">Cancha</label>
+        <select
+          class="form-select"
+          name="cancha"
+          [(ngModel)]="turnoData.cancha"
+          required
+        >
+          <option *ngFor="let cancha of canchas" [value]="cancha">
+            {{ cancha }}
+          </option>
+        </select>
+      </div>
+      <div class="col-12 d-flex justify-content-between">
+        <button class="btn btn-primary" type="submit">Confirmar Turno</button>
+        <button class="btn btn-secondary" type="button" (click)="closeDialog()">
+          Cancelar
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

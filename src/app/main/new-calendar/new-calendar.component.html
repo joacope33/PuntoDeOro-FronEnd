@@ -1,0 +1,49 @@
+<div id="calendar-container" class="container">
+  <!-- Cabecera -->
+  <div
+    id="calendar-header"
+    class="d-flex justify-content-between align-items-center mb-3"
+  >
+    <button (click)="prevWeek()" class="btn btn-primary">
+      Semana Anterior
+    </button>
+    <div id="current-week" class="fw-bold text-white">{{ displayedWeek }}</div>
+    <button (click)="nextWeek()" class="btn btn-primary">
+      Semana Siguiente
+    </button>
+    <button (click)="openModal()" class="btn btn-primary">
+      Semana Siguiente
+    </button>
+  </div>
+
+  <!-- Grid del calendario -->
+  <div id="calendar-grid" class="row">
+    <!-- Fila de encabezado (días de la semana) -->
+    <div class="row">
+      <div
+        class="col calendar-header bg-primary text-center text-white fw-bold"
+        *ngFor="let day of calendarGrid[0].days"
+      >
+        {{ day }}
+      </div>
+    </div>
+
+    <!-- Generar filas de horas -->
+    <div *ngFor="let row of calendarGrid.slice(1)" class="row">
+      <!-- Celda de la hora -->
+      <div class="col calendar-cell text-center text-white fw-bold">
+        {{ row.hour }}
+      </div>
+
+      <!-- Generar celdas de eventos para cada día y hora -->
+      <div *ngFor="let event of row.events.slice(1)" class="col calendar-cell">
+        <div
+          *ngIf="event"
+          class="event text-center text-white fw-bold h-100 w-100"
+          [innerHTML]="event"
+          (click)="openModal()"
+        ></div>
+      </div>
+    </div>
+  </div>
+</div>

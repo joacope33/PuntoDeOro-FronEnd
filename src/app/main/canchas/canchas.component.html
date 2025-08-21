@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="menu">
+    <div class="canchas-container">
+      <div
+        *ngFor="let cancha of canchas"
+        (click)="openCalendar(cancha)"
+        class="cancha-card"
+      >
+        <app-cancha
+          [numero]="cancha.numero"
+          [nombre]="cancha.nombre"
+          [estado]="cancha.estado"
+        ></app-cancha>
+      </div>
+    </div>
+  </div>
+</div>

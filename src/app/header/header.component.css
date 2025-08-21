@@ -1,0 +1,48 @@
+/* Para pantallas 8K (7680px de ancho o más) */
+@media (min-width: 7680px) {
+  .navbar-nav .nav-link {
+    font-size: 1.5rem; /* Ajusta según lo que prefieras */
+  }
+}
+
+/* Para pantallas 4K (3840px de ancho) */
+@media (min-width: 3840px) and (max-width: 7679px) {
+  .navbar-nav .nav-link {
+    font-size: 1.4rem;
+  }
+}
+
+/* Para pantallas 2K (2560px de ancho) */
+@media (min-width: 2560px) and (max-width: 3839px) {
+  .navbar-nav .nav-link {
+    font-size: 1.3rem;
+  }
+}
+
+/* Para pantallas HD (1920px de ancho) */
+@media (min-width: 1920px) and (max-width: 2559px) {
+  .navbar-nav .nav-link {
+    font-size: 1.2rem;
+  }
+}
+
+/* Para pantallas 720p (1280px de ancho) */
+@media (min-width: 1280px) and (max-width: 1919px) {
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+  }
+}
+
+/* Para pantallas 360p (640px de ancho) */
+@media (min-width: 640px) and (max-width: 1279px) {
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+  }
+}
+
+/* Para pantallas 240p (320px de ancho) */
+@media (max-width: 639px) {
+  .navbar-nav .nav-link {
+    font-size: 0.9rem;
+  }
+}

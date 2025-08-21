@@ -1,0 +1,3098 @@
+[
+  {
+    "ganador": true,
+    "ganadorId": "M001",
+    "equipo1": [
+      {
+        "nombre": "Nico Rodriguez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Juan Sanchez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 7,
+        "opponent": 1
+      },
+      {
+        "own": 7,
+        "opponent": 4
+      }
+    ],
+    "perdedorId": "M002",
+    "equipo2": [
+      {
+        "nombre": "Mateo Rodriguez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Diego Martinez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 1,
+        "opponent": 7
+      },
+      {
+        "own": 4,
+        "opponent": 7
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 0,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M003",
+    "equipo1": [
+      {
+        "nombre": "Valentino Silva",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Lucas Martinez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 1
+      },
+      {
+        "own": 6,
+        "opponent": 3
+      }
+    ],
+    "perdedorId": "M004",
+    "equipo2": [
+      {
+        "nombre": "Juan Rodriguez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Diego Gomez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 1,
+        "opponent": 6
+      },
+      {
+        "own": 3,
+        "opponent": 6
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 1,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M005",
+    "equipo1": [
+      {
+        "nombre": "Diego Sanchez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Juan Martinez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 5
+      },
+      {
+        "own": 7,
+        "opponent": 5
+      }
+    ],
+    "perdedorId": "M006",
+    "equipo2": [
+      {
+        "nombre": "Leo Fernandez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Mateo Fernandez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 5,
+        "opponent": 6
+      },
+      {
+        "own": 5,
+        "opponent": 7
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 2,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M007",
+    "equipo1": [
+      {
+        "nombre": "Bruno Cabrera",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Diego Garcia",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 1
+      },
+      {
+        "own": 6,
+        "opponent": 2
+      }
+    ],
+    "perdedorId": "M008",
+    "equipo2": [
+      {
+        "nombre": "Pedro Sanchez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      },
+      {
+        "nombre": "Pedro Lopez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 1,
+        "opponent": 6
+      },
+      {
+        "own": 2,
+        "opponent": 6
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 3,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M009",
+    "equipo1": [
+      {
+        "nombre": "Mateo Sanchez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Juan Diaz",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 5
+      },
+      {
+        "own": 6,
+        "opponent": 2
+      }
+    ],
+    "perdedorId": "M010",
+    "equipo2": [
+      {
+        "nombre": "Mateo Lopez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Gaspar Benitez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 5,
+        "opponent": 6
+      },
+      {
+        "own": 2,
+        "opponent": 6
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 4,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M011",
+    "equipo1": [
+      {
+        "nombre": "Nico Martinez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      },
+      {
+        "nombre": "Alejo Acosta",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 7,
+        "opponent": 2
+      },
+      {
+        "own": 7,
+        "opponent": 3
+      }
+    ],
+    "perdedorId": "M012",
+    "equipo2": [
+      {
+        "nombre": "Mateo Garcia",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Emiliano Pereyra",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 2,
+        "opponent": 7
+      },
+      {
+        "own": 3,
+        "opponent": 7
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 5,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M013",
+    "equipo1": [
+      {
+        "nombre": "Pedro Fernandez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Leo Sanchez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 2
+      },
+      {
+        "own": 6,
+        "opponent": 4
+      }
+    ],
+    "perdedorId": "M014",
+    "equipo2": [
+      {
+        "nombre": "Dante Romero",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Iker Martinez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 2,
+        "opponent": 6
+      },
+      {
+        "own": 4,
+        "opponent": 6
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 6,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M015",
+    "equipo1": [
+      {
+        "nombre": "Juan Fernandez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Santiago Perez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 5
+      },
+      {
+        "own": 7,
+        "opponent": 2
+      }
+    ],
+    "perdedorId": "M016",
+    "equipo2": [
+      {
+        "nombre": "Nico Diaz",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Nico Garcia",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 5,
+        "opponent": 6
+      },
+      {
+        "own": 2,
+        "opponent": 7
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 7,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M017",
+    "equipo1": [
+      {
+        "nombre": "Thiago Suarez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Alejo Gimenez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 7,
+        "opponent": 3
+      },
+      {
+        "own": 6,
+        "opponent": 5
+      }
+    ],
+    "perdedorId": "M018",
+    "equipo2": [
+      {
+        "nombre": "Mateo Gomez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      },
+      {
+        "nombre": "Facundo Diaz",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 3,
+        "opponent": 7
+      },
+      {
+        "own": 5,
+        "opponent": 6
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 8,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M019",
+    "equipo1": [
+      {
+        "nombre": "Nico Sanchez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Diego Rodriguez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 7,
+        "opponent": 4
+      },
+      {
+        "own": 6,
+        "opponent": 5
+      }
+    ],
+    "perdedorId": "M020",
+    "equipo2": [
+      {
+        "nombre": "Felipe Perez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Nico Fernandez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 4,
+        "opponent": 7
+      },
+      {
+        "own": 5,
+        "opponent": 6
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 9,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M021",
+    "equipo1": [
+      {
+        "nombre": "Dante Suarez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      },
+      {
+        "nombre": "Juan Lopez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 7,
+        "opponent": 2
+      },
+      {
+        "own": 7,
+        "opponent": 2
+      }
+    ],
+    "perdedorId": "M022",
+    "equipo2": [
+      {
+        "nombre": "Nicolas Castro",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Nicolas Herrera",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 2,
+        "opponent": 7
+      },
+      {
+        "own": 2,
+        "opponent": 7
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 10,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M023",
+    "equipo1": [
+      {
+        "nombre": "Lucas Sanchez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Facundo Fernandez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 7,
+        "opponent": 5
+      },
+      {
+        "own": 7,
+        "opponent": 1
+      }
+    ],
+    "perdedorId": "M024",
+    "equipo2": [
+      {
+        "nombre": "Lucas Rodriguez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Leo Diaz",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 5,
+        "opponent": 7
+      },
+      {
+        "own": 1,
+        "opponent": 7
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 11,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M025",
+    "equipo1": [
+      {
+        "nombre": "Pedro Gomez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Benjamin Benitez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 7,
+        "opponent": 0
+      },
+      {
+        "own": 6,
+        "opponent": 1
+      }
+    ],
+    "perdedorId": "M026",
+    "equipo2": [
+      {
+        "nombre": "Lautaro Farias",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Gaspar Perez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 0,
+        "opponent": 7
+      },
+      {
+        "own": 1,
+        "opponent": 6
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 12,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M027",
+    "equipo1": [
+      {
+        "nombre": "Leo Gomez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Pedro Rodriguez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 3
+      },
+      {
+        "own": 6,
+        "opponent": 0
+      }
+    ],
+    "perdedorId": "M028",
+    "equipo2": [
+      {
+        "nombre": "Juan Gomez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Tomas Ibarra",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 3,
+        "opponent": 6
+      },
+      {
+        "own": 0,
+        "opponent": 6
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 13,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M029",
+    "equipo1": [
+      {
+        "nombre": "Benjamin Lopez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Gaspar Acosta",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 2
+      },
+      {
+        "own": 6,
+        "opponent": 3
+      }
+    ],
+    "perdedorId": "M030",
+    "equipo2": [
+      {
+        "nombre": "Matias Lopez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      },
+      {
+        "nombre": "Emiliano Romero",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 2,
+        "opponent": 6
+      },
+      {
+        "own": 3,
+        "opponent": 6
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 14,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M031",
+    "equipo1": [
+      {
+        "nombre": "Ezequiel Silva",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Leo Martinez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 3
+      },
+      {
+        "own": 6,
+        "opponent": 0
+      }
+    ],
+    "perdedorId": "M032",
+    "equipo2": [
+      {
+        "nombre": "Axel Garcia",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Lucas Lopez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 3,
+        "opponent": 6
+      },
+      {
+        "own": 0,
+        "opponent": 6
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 15,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M033",
+    "equipo1": [
+      {
+        "nombre": "Felipe Vega",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Mateo Diaz",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 2
+      },
+      {
+        "own": 6,
+        "opponent": 5
+      }
+    ],
+    "perdedorId": "M034",
+    "equipo2": [
+      {
+        "nombre": "Santiago Cabrera",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Lautaro Herrera",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 2,
+        "opponent": 6
+      },
+      {
+        "own": 5,
+        "opponent": 6
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 16,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M035",
+    "equipo1": [
+      {
+        "nombre": "Emiliano Sanchez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Thiago Herrera",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 4
+      },
+      {
+        "own": 6,
+        "opponent": 5
+      }
+    ],
+    "perdedorId": "M036",
+    "equipo2": [
+      {
+        "nombre": "Pedro Martinez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Bautista Castro",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 4,
+        "opponent": 6
+      },
+      {
+        "own": 5,
+        "opponent": 6
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 17,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M037",
+    "equipo1": [
+      {
+        "nombre": "Felipe Garcia",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Iker Suarez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 7,
+        "opponent": 3
+      },
+      {
+        "own": 7,
+        "opponent": 2
+      }
+    ],
+    "perdedorId": "M038",
+    "equipo2": [
+      {
+        "nombre": "Diego Diaz",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Facundo Garcia",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 3,
+        "opponent": 7
+      },
+      {
+        "own": 2,
+        "opponent": 7
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 18,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M039",
+    "equipo1": [
+      {
+        "nombre": "Nicolas Romero",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Pedro Diaz",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 7,
+        "opponent": 3
+      },
+      {
+        "own": 6,
+        "opponent": 5
+      }
+    ],
+    "perdedorId": "M040",
+    "equipo2": [
+      {
+        "nombre": "Santiago Pereyra",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Juan Garcia",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 3,
+        "opponent": 7
+      },
+      {
+        "own": 5,
+        "opponent": 6
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 19,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M041",
+    "equipo1": [
+      {
+        "nombre": "Alejo Fernandez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Thiago Benitez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 3
+      },
+      {
+        "own": 6,
+        "opponent": 3
+      }
+    ],
+    "perdedorId": "M042",
+    "equipo2": [
+      {
+        "nombre": "Gaspar Diaz",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      },
+      {
+        "nombre": "Nico Lopez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 3,
+        "opponent": 6
+      },
+      {
+        "own": 3,
+        "opponent": 6
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 20,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M043",
+    "equipo1": [
+      {
+        "nombre": "Valentino Garcia",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Tomas Garcia",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 3
+      },
+      {
+        "own": 7,
+        "opponent": 5
+      }
+    ],
+    "perdedorId": "M044",
+    "equipo2": [
+      {
+        "nombre": "Nico Gomez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Lucas Diaz",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 3,
+        "opponent": 6
+      },
+      {
+        "own": 5,
+        "opponent": 7
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 21,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M045",
+    "equipo1": [
+      {
+        "nombre": "Axel Suarez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Marco Vega",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 0
+      },
+      {
+        "own": 7,
+        "opponent": 4
+      }
+    ],
+    "perdedorId": "M046",
+    "equipo2": [
+      {
+        "nombre": "Nicolas Pereyra",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Diego Fernandez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 0,
+        "opponent": 6
+      },
+      {
+        "own": 4,
+        "opponent": 7
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 22,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M047",
+    "equipo1": [
+      {
+        "nombre": "Valentino Romero",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      },
+      {
+        "nombre": "Felipe Castro",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 3
+      },
+      {
+        "own": 7,
+        "opponent": 1
+      }
+    ],
+    "perdedorId": "M048",
+    "equipo2": [
+      {
+        "nombre": "Tomas Herrera",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Alejo Ramos",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 3,
+        "opponent": 6
+      },
+      {
+        "own": 1,
+        "opponent": 7
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 23,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M049",
+    "equipo1": [
+      {
+        "nombre": "Lautaro Sanchez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Gaspar Castro",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 7,
+        "opponent": 4
+      },
+      {
+        "own": 6,
+        "opponent": 0
+      }
+    ],
+    "perdedorId": "M050",
+    "equipo2": [
+      {
+        "nombre": "Alejo Pereyra",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Facundo Lopez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 4,
+        "opponent": 7
+      },
+      {
+        "own": 0,
+        "opponent": 6
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 24,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M051",
+    "equipo1": [
+      {
+        "nombre": "Facundo Gonzalez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Alejo Gonzalez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 2
+      },
+      {
+        "own": 6,
+        "opponent": 5
+      }
+    ],
+    "perdedorId": "M052",
+    "equipo2": [
+      {
+        "nombre": "Facundo Sanchez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Gaspar Romero",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 2,
+        "opponent": 6
+      },
+      {
+        "own": 5,
+        "opponent": 6
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 25,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M053",
+    "equipo1": [
+      {
+        "nombre": "Matias Farias",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Nicolas Lopez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 4
+      },
+      {
+        "own": 6,
+        "opponent": 4
+      }
+    ],
+    "perdedorId": "M054",
+    "equipo2": [
+      {
+        "nombre": "Matias Castro",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Agustin Sanchez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 4,
+        "opponent": 6
+      },
+      {
+        "own": 4,
+        "opponent": 6
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 26,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M055",
+    "equipo1": [
+      {
+        "nombre": "Valentino Diaz",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Pedro Garcia",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 7,
+        "opponent": 1
+      },
+      {
+        "own": 7,
+        "opponent": 0
+      }
+    ],
+    "perdedorId": "M056",
+    "equipo2": [
+      {
+        "nombre": "Franco Vega",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Franco Benitez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 1,
+        "opponent": 7
+      },
+      {
+        "own": 0,
+        "opponent": 7
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 27,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M057",
+    "equipo1": [
+      {
+        "nombre": "Dante Herrera",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Gaspar Cabrera",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 7,
+        "opponent": 3
+      },
+      {
+        "own": 6,
+        "opponent": 2
+      }
+    ],
+    "perdedorId": "M058",
+    "equipo2": [
+      {
+        "nombre": "Iker Sanchez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Axel Benitez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 3,
+        "opponent": 7
+      },
+      {
+        "own": 2,
+        "opponent": 6
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 28,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M059",
+    "equipo1": [
+      {
+        "nombre": "Lucas Fernandez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Franco Gimenez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 2
+      },
+      {
+        "own": 7,
+        "opponent": 0
+      }
+    ],
+    "perdedorId": "M060",
+    "equipo2": [
+      {
+        "nombre": "Agustin Romero",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Santiago Silva",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 2,
+        "opponent": 6
+      },
+      {
+        "own": 0,
+        "opponent": 7
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 29,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M061",
+    "equipo1": [
+      {
+        "nombre": "Franco Castro",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Tomas Pereyra",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 7,
+        "opponent": 5
+      },
+      {
+        "own": 7,
+        "opponent": 0
+      }
+    ],
+    "perdedorId": "M062",
+    "equipo2": [
+      {
+        "nombre": "Benjamin Molina",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Thiago Sanchez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 5,
+        "opponent": 7
+      },
+      {
+        "own": 0,
+        "opponent": 7
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 30,
+    "category": 7
+  },
+  {
+    "ganador": true,
+    "ganadorId": "M063",
+    "equipo1": [
+      {
+        "nombre": "Lucas Garcia",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Ezequiel Molina",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      }
+    ],
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 1
+      },
+      {
+        "own": 6,
+        "opponent": 2
+      }
+    ],
+    "perdedorId": "M064",
+    "equipo2": [
+      {
+        "nombre": "Facundo Gomez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      },
+      {
+        "nombre": "Lautaro Gimenez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "scores2": [
+      {
+        "own": 1,
+        "opponent": 6
+      },
+      {
+        "own": 2,
+        "opponent": 6
+      }
+    ],
+    "tournamentId": "T2025-01",
+    "round": "R32",
+    "order": 31,
+    "category": 7
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R16",
+    "order": 0,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Nico Rodriguez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Juan Sanchez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Valentino Silva",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Lucas Martinez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "ganador": false,
+    "ganadorId": "T2025-01-R16-O00-W",
+    "perdedorId": "T2025-01-R16-O00-L",
+    "scores1": [
+      {
+        "own": 5,
+        "opponent": 7
+      },
+      {
+        "own": 1,
+        "opponent": 6
+      }
+    ],
+    "scores2": [
+      {
+        "own": 7,
+        "opponent": 5
+      },
+      {
+        "own": 6,
+        "opponent": 1
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R16",
+    "order": 1,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Diego Sanchez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Juan Martinez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Bruno Cabrera",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Diego Garcia",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-R16-O01-W",
+    "perdedorId": "T2025-01-R16-O01-L",
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 1
+      },
+      {
+        "own": 7,
+        "opponent": 5
+      }
+    ],
+    "scores2": [
+      {
+        "own": 1,
+        "opponent": 6
+      },
+      {
+        "own": 5,
+        "opponent": 7
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R16",
+    "order": 2,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Mateo Sanchez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Juan Diaz",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Nico Martinez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      },
+      {
+        "nombre": "Alejo Acosta",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-R16-O02-W",
+    "perdedorId": "T2025-01-R16-O02-L",
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 3
+      },
+      {
+        "own": 6,
+        "opponent": 3
+      }
+    ],
+    "scores2": [
+      {
+        "own": 3,
+        "opponent": 6
+      },
+      {
+        "own": 3,
+        "opponent": 6
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R16",
+    "order": 3,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Pedro Fernandez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Leo Sanchez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Juan Fernandez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Santiago Perez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      }
+    ],
+    "ganador": false,
+    "ganadorId": "T2025-01-R16-O03-W",
+    "perdedorId": "T2025-01-R16-O03-L",
+    "scores1": [
+      {
+        "own": 3,
+        "opponent": 6
+      },
+      {
+        "own": 4,
+        "opponent": 6
+      }
+    ],
+    "scores2": [
+      {
+        "own": 6,
+        "opponent": 3
+      },
+      {
+        "own": 6,
+        "opponent": 4
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R16",
+    "order": 4,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Thiago Suarez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Alejo Gimenez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Nico Sanchez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Diego Rodriguez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "ganador": false,
+    "ganadorId": "T2025-01-R16-O04-W",
+    "perdedorId": "T2025-01-R16-O04-L",
+    "scores1": [
+      {
+        "own": 4,
+        "opponent": 6
+      },
+      {
+        "own": 1,
+        "opponent": 6
+      }
+    ],
+    "scores2": [
+      {
+        "own": 6,
+        "opponent": 4
+      },
+      {
+        "own": 6,
+        "opponent": 1
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R16",
+    "order": 5,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Dante Suarez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      },
+      {
+        "nombre": "Juan Lopez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Lucas Sanchez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Facundo Fernandez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-R16-O05-W",
+    "perdedorId": "T2025-01-R16-O05-L",
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 3
+      },
+      {
+        "own": 7,
+        "opponent": 5
+      }
+    ],
+    "scores2": [
+      {
+        "own": 3,
+        "opponent": 6
+      },
+      {
+        "own": 5,
+        "opponent": 7
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R16",
+    "order": 6,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Pedro Gomez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Benjamin Benitez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Leo Gomez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Pedro Rodriguez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-R16-O06-W",
+    "perdedorId": "T2025-01-R16-O06-L",
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 2
+      },
+      {
+        "own": 7,
+        "opponent": 5
+      }
+    ],
+    "scores2": [
+      {
+        "own": 2,
+        "opponent": 6
+      },
+      {
+        "own": 5,
+        "opponent": 7
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R16",
+    "order": 7,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Benjamin Lopez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Gaspar Acosta",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Ezequiel Silva",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Leo Martinez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-R16-O07-W",
+    "perdedorId": "T2025-01-R16-O07-L",
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 1
+      },
+      {
+        "own": 6,
+        "opponent": 3
+      }
+    ],
+    "scores2": [
+      {
+        "own": 1,
+        "opponent": 6
+      },
+      {
+        "own": 3,
+        "opponent": 6
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R16",
+    "order": 8,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Felipe Vega",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Mateo Diaz",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Emiliano Sanchez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Thiago Herrera",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-R16-O08-W",
+    "perdedorId": "T2025-01-R16-O08-L",
+    "scores1": [
+      {
+        "own": 7,
+        "opponent": 5
+      },
+      {
+        "own": 7,
+        "opponent": 5
+      }
+    ],
+    "scores2": [
+      {
+        "own": 5,
+        "opponent": 7
+      },
+      {
+        "own": 5,
+        "opponent": 7
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R16",
+    "order": 9,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Felipe Garcia",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Iker Suarez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Nicolas Romero",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Pedro Diaz",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      }
+    ],
+    "ganador": false,
+    "ganadorId": "T2025-01-R16-O09-W",
+    "perdedorId": "T2025-01-R16-O09-L",
+    "scores1": [
+      {
+        "own": 2,
+        "opponent": 6
+      },
+      {
+        "own": 3,
+        "opponent": 6
+      }
+    ],
+    "scores2": [
+      {
+        "own": 6,
+        "opponent": 2
+      },
+      {
+        "own": 6,
+        "opponent": 3
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R16",
+    "order": 10,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Alejo Fernandez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Thiago Benitez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Valentino Garcia",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Tomas Garcia",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-R16-O10-W",
+    "perdedorId": "T2025-01-R16-O10-L",
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 2
+      },
+      {
+        "own": 7,
+        "opponent": 5
+      }
+    ],
+    "scores2": [
+      {
+        "own": 2,
+        "opponent": 6
+      },
+      {
+        "own": 5,
+        "opponent": 7
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R16",
+    "order": 11,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Axel Suarez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Marco Vega",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Valentino Romero",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      },
+      {
+        "nombre": "Felipe Castro",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-R16-O11-W",
+    "perdedorId": "T2025-01-R16-O11-L",
+    "scores1": [
+      {
+        "own": 7,
+        "opponent": 5
+      },
+      {
+        "own": 6,
+        "opponent": 1
+      }
+    ],
+    "scores2": [
+      {
+        "own": 5,
+        "opponent": 7
+      },
+      {
+        "own": 1,
+        "opponent": 6
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R16",
+    "order": 12,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Lautaro Sanchez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Gaspar Castro",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Facundo Gonzalez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Alejo Gonzalez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-R16-O12-W",
+    "perdedorId": "T2025-01-R16-O12-L",
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 3
+      },
+      {
+        "own": 6,
+        "opponent": 4
+      }
+    ],
+    "scores2": [
+      {
+        "own": 3,
+        "opponent": 6
+      },
+      {
+        "own": 4,
+        "opponent": 6
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R16",
+    "order": 13,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Matias Farias",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Nicolas Lopez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Valentino Diaz",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Pedro Garcia",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "ganador": false,
+    "ganadorId": "T2025-01-R16-O13-W",
+    "perdedorId": "T2025-01-R16-O13-L",
+    "scores1": [
+      {
+        "own": 1,
+        "opponent": 6
+      },
+      {
+        "own": 3,
+        "opponent": 6
+      }
+    ],
+    "scores2": [
+      {
+        "own": 6,
+        "opponent": 1
+      },
+      {
+        "own": 6,
+        "opponent": 3
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R16",
+    "order": 14,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Dante Herrera",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Gaspar Cabrera",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Lucas Fernandez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Franco Gimenez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-R16-O14-W",
+    "perdedorId": "T2025-01-R16-O14-L",
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 3
+      },
+      {
+        "own": 6,
+        "opponent": 2
+      }
+    ],
+    "scores2": [
+      {
+        "own": 3,
+        "opponent": 6
+      },
+      {
+        "own": 2,
+        "opponent": 6
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R16",
+    "order": 15,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Franco Castro",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Tomas Pereyra",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Lucas Garcia",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Ezequiel Molina",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      }
+    ],
+    "ganador": false,
+    "ganadorId": "T2025-01-R16-O15-W",
+    "perdedorId": "T2025-01-R16-O15-L",
+    "scores1": [
+      {
+        "own": 2,
+        "opponent": 6
+      },
+      {
+        "own": 5,
+        "opponent": 7
+      }
+    ],
+    "scores2": [
+      {
+        "own": 6,
+        "opponent": 2
+      },
+      {
+        "own": 7,
+        "opponent": 5
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R8",
+    "order": 0,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Valentino Silva",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Lucas Martinez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Diego Sanchez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Juan Martinez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-R8-O00-W",
+    "perdedorId": "T2025-01-R8-O00-L",
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 1
+      },
+      {
+        "own": 6,
+        "opponent": 1
+      }
+    ],
+    "scores2": [
+      {
+        "own": 1,
+        "opponent": 6
+      },
+      {
+        "own": 1,
+        "opponent": 6
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R8",
+    "order": 1,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Mateo Sanchez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Juan Diaz",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Juan Fernandez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Santiago Perez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-R8-O01-W",
+    "perdedorId": "T2025-01-R8-O01-L",
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 4
+      },
+      {
+        "own": 6,
+        "opponent": 1
+      }
+    ],
+    "scores2": [
+      {
+        "own": 4,
+        "opponent": 6
+      },
+      {
+        "own": 1,
+        "opponent": 6
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R8",
+    "order": 2,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Nico Sanchez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Diego Rodriguez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Dante Suarez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      },
+      {
+        "nombre": "Juan Lopez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-R8-O02-W",
+    "perdedorId": "T2025-01-R8-O02-L",
+    "scores1": [
+      {
+        "own": 7,
+        "opponent": 5
+      },
+      {
+        "own": 6,
+        "opponent": 2
+      }
+    ],
+    "scores2": [
+      {
+        "own": 5,
+        "opponent": 7
+      },
+      {
+        "own": 2,
+        "opponent": 6
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R8",
+    "order": 3,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Pedro Gomez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Benjamin Benitez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Benjamin Lopez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Gaspar Acosta",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      }
+    ],
+    "ganador": false,
+    "ganadorId": "T2025-01-R8-O03-W",
+    "perdedorId": "T2025-01-R8-O03-L",
+    "scores1": [
+      {
+        "own": 4,
+        "opponent": 6
+      },
+      {
+        "own": 5,
+        "opponent": 7
+      }
+    ],
+    "scores2": [
+      {
+        "own": 6,
+        "opponent": 4
+      },
+      {
+        "own": 7,
+        "opponent": 5
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R8",
+    "order": 4,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Felipe Vega",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Mateo Diaz",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Nicolas Romero",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Pedro Diaz",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      }
+    ],
+    "ganador": false,
+    "ganadorId": "T2025-01-R8-O04-W",
+    "perdedorId": "T2025-01-R8-O04-L",
+    "scores1": [
+      {
+        "own": 3,
+        "opponent": 6
+      },
+      {
+        "own": 5,
+        "opponent": 7
+      }
+    ],
+    "scores2": [
+      {
+        "own": 6,
+        "opponent": 3
+      },
+      {
+        "own": 7,
+        "opponent": 5
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R8",
+    "order": 5,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Alejo Fernandez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Thiago Benitez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Axel Suarez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Marco Vega",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-R8-O05-W",
+    "perdedorId": "T2025-01-R8-O05-L",
+    "scores1": [
+      {
+        "own": 7,
+        "opponent": 5
+      },
+      {
+        "own": 6,
+        "opponent": 4
+      }
+    ],
+    "scores2": [
+      {
+        "own": 5,
+        "opponent": 7
+      },
+      {
+        "own": 4,
+        "opponent": 6
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R8",
+    "order": 6,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Lautaro Sanchez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Gaspar Castro",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Valentino Diaz",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      },
+      {
+        "nombre": "Pedro Garcia",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-R8-O06-W",
+    "perdedorId": "T2025-01-R8-O06-L",
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 2
+      },
+      {
+        "own": 7,
+        "opponent": 5
+      }
+    ],
+    "scores2": [
+      {
+        "own": 2,
+        "opponent": 6
+      },
+      {
+        "own": 5,
+        "opponent": 7
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "R8",
+    "order": 7,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Dante Herrera",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Gaspar Cabrera",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Lucas Garcia",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Ezequiel Molina",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-R8-O07-W",
+    "perdedorId": "T2025-01-R8-O07-L",
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 2
+      },
+      {
+        "own": 6,
+        "opponent": 3
+      }
+    ],
+    "scores2": [
+      {
+        "own": 2,
+        "opponent": 6
+      },
+      {
+        "own": 3,
+        "opponent": 6
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "Cuartos",
+    "order": 0,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Valentino Silva",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Lucas Martinez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Mateo Sanchez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Juan Diaz",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "ganador": false,
+    "ganadorId": "T2025-01-Cuartos-O00-W",
+    "perdedorId": "T2025-01-Cuartos-O00-L",
+    "scores1": [
+      {
+        "own": 3,
+        "opponent": 6
+      },
+      {
+        "own": 4,
+        "opponent": 6
+      }
+    ],
+    "scores2": [
+      {
+        "own": 6,
+        "opponent": 3
+      },
+      {
+        "own": 6,
+        "opponent": 4
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "Cuartos",
+    "order": 1,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Nico Sanchez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Diego Rodriguez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Benjamin Lopez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Gaspar Acosta",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-Cuartos-O01-W",
+    "perdedorId": "T2025-01-Cuartos-O01-L",
+    "scores1": [
+      {
+        "own": 7,
+        "opponent": 5
+      },
+      {
+        "own": 6,
+        "opponent": 4
+      }
+    ],
+    "scores2": [
+      {
+        "own": 5,
+        "opponent": 7
+      },
+      {
+        "own": 4,
+        "opponent": 6
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "Cuartos",
+    "order": 2,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Nicolas Romero",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Pedro Diaz",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Alejo Fernandez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Thiago Benitez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "ganador": false,
+    "ganadorId": "T2025-01-Cuartos-O02-W",
+    "perdedorId": "T2025-01-Cuartos-O02-L",
+    "scores1": [
+      {
+        "own": 2,
+        "opponent": 6
+      },
+      {
+        "own": 2,
+        "opponent": 6
+      }
+    ],
+    "scores2": [
+      {
+        "own": 6,
+        "opponent": 2
+      },
+      {
+        "own": 6,
+        "opponent": 2
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "Cuartos",
+    "order": 3,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Lautaro Sanchez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Gaspar Castro",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Dante Herrera",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Gaspar Cabrera",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "ganador": false,
+    "ganadorId": "T2025-01-Cuartos-O03-W",
+    "perdedorId": "T2025-01-Cuartos-O03-L",
+    "scores1": [
+      {
+        "own": 3,
+        "opponent": 6
+      },
+      {
+        "own": 1,
+        "opponent": 6
+      }
+    ],
+    "scores2": [
+      {
+        "own": 6,
+        "opponent": 3
+      },
+      {
+        "own": 6,
+        "opponent": 1
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "Semifinal",
+    "order": 0,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Mateo Sanchez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Juan Diaz",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Nico Sanchez",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Diego Rodriguez",
+        "bandera": "https://flagcdn.com/w40/fr.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-Semifinal-O00-W",
+    "perdedorId": "T2025-01-Semifinal-O00-L",
+    "scores1": [
+      {
+        "own": 7,
+        "opponent": 5
+      },
+      {
+        "own": 6,
+        "opponent": 2
+      }
+    ],
+    "scores2": [
+      {
+        "own": 5,
+        "opponent": 7
+      },
+      {
+        "own": 2,
+        "opponent": 6
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "Semifinal",
+    "order": 1,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Alejo Fernandez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Thiago Benitez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "equipo2": [
+      {
+        "nombre": "Dante Herrera",
+        "bandera": "https://flagcdn.com/w40/br.png"
+      },
+      {
+        "nombre": "Gaspar Cabrera",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-Semifinal-O01-W",
+    "perdedorId": "T2025-01-Semifinal-O01-L",
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 2
+      },
+      {
+        "own": 6,
+        "opponent": 1
+      }
+    ],
+    "scores2": [
+      {
+        "own": 2,
+        "opponent": 6
+      },
+      {
+        "own": 1,
+        "opponent": 6
+      }
+    ]
+  },
+  {
+    "tournamentId": "T2025-01",
+    "round": "Final",
+    "order": 1,
+    "category": 7,
+    "equipo1": [
+      {
+        "nombre": "Mateo Sanchez",
+        "bandera": "https://flagcdn.com/w40/it.png"
+      },
+      {
+        "nombre": "Juan Diaz",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+
+    ],
+    "equipo2": [
+      {
+        "nombre": "Alejo Fernandez",
+        "bandera": "https://flagcdn.com/w40/ar.png"
+      },
+      {
+        "nombre": "Thiago Benitez",
+        "bandera": "https://flagcdn.com/w40/es.png"
+      }
+    ],
+    "ganador": true,
+    "ganadorId": "T2025-01-Semifinal-O01-W",
+    "perdedorId": "T2025-01-Semifinal-O01-L",
+    "scores1": [
+      {
+        "own": 6,
+        "opponent": 2
+      },
+      {
+        "own": 1,
+        "opponent": 6
+      },
+            {
+        "own": 6,
+        "opponent": 1
+      }
+    ],
+    "scores2": [
+      {
+        "own": 2,
+        "opponent": 6
+      },
+      {
+        "own": 6,
+        "opponent": 1
+      },
+            {
+        "own": 1,
+        "opponent": 6
+      }
+    ]
+  }
+]

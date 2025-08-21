@@ -1,0 +1,43 @@
+/* Estilo base para el carrusel responsivo */
+.responsive-carousel {
+  width: 100%; /* El carrusel ocupa todo el ancho disponible */
+  max-width: 100%; /* Evita que el carrusel sea más ancho que su contenedor */
+  margin: 0 auto; /* Centrado horizontal */
+}
+
+.carousel-inner {
+  width: 100%;
+  height: auto; /* Ajusta la altura para que no sea fija */
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto; /* Mantén la proporción de la imagen */
+  object-fit: cover; /* Rellena el espacio manteniendo proporciones */
+  object-position: center; /* Centra la imagen */
+}
+
+.carousel-inner {
+  background-color: black; /* Fondo negro para el carrusel */
+}
+
+/* Mejora la visibilidad de los indicadores */
+.carousel-indicators button {
+  background-color: #fff; /* Puntos blancos */
+  opacity: 1;
+}
+
+/* Resalta el indicador activo */
+.carousel-indicators .active {
+  background-color: #f39c12; /* Color resaltado naranja */
+  opacity: 1;
+}
+
+/* Mejora la accesibilidad del texto oculto */
+.visually-hidden {
+  color: #fff;
+}
+
+.carousel .carousel-control-prev-icon {
+  filter: invert(0);
+}
