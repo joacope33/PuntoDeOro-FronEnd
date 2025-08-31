@@ -14,7 +14,7 @@
 
 img:hover {
   color: white;
-  background-color: var(--color-magenta);
+
   border-radius: 7px;
 }
 

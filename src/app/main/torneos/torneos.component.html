@@ -1,11 +1,94 @@
-<div class="container-fluid">
-  <div class="menu text-center justify-content-center aling-content-center">
-    <h1>Torneos</h1>
-    <div class="GroupButtom d-flex w-25">
-      <button class="bg-primary w-auto h-auto fw-bold mx-1">Crear</button>
-      <button class="bg-danger w-auto h-auto fw-bold mx-1">Eliminar</button>
-      <button class="bg-primary w-auto h-auto fw-bold mx-1">Editar</button>
-    </div>
+<button class="btn btn-primary" (click)="abrirModal()">Crear</button>
+<div class="d-flex flex-wrap">
+  <!-- Filtro lateral -->
+  <div class="col-sm-2 p-3 border-end text-center">
+    <h4 class="mb-3">CATEGORÍAS</h4>
+    <ul class="list-unstyled">
+      <li class="my-2 text-center">
+        <button
+          (click)="setCategory('')"
+          [class.active]="selectedCategory === ''"
+          class="btn p-0 text-center w-100">
+          Todos
+        </button>
+      </li>
+      @for (category of categories; track category) {
+        <li class="my-2">
+          <button 
+            (click)="setCategory(category)" 
+            [class.active]="selectedCategory === category"
+            class="btn p-0 text-center w-100 d-flex justify-content-center align-items-center gap-1">
+            {{ category }}
+          </button>
+        </li>
+      }
+    </ul>
   </div>
-  <div class="List-Torneos"></div>
+
+  <!-- Lista de torneos -->
+  <div class="col-sm-10 p-3">
+    <h3 class="mb-3">Torneos</h3>
+
+    <!-- Filtro de orden -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <p class="mb-0 fw-bold">Mostrando {{ filteredTournaments.length }} resultados</p>
+      <form class="d-flex align-items-center">
+        <label class="me-2 mb-0 fw-bold">Ordenar por:</label>
+        <select [(ngModel)]="sortOrder" (ngModelChange)="page = 1" name="orderby" class="form-select form-select-sm w-auto">
+          <option value="">Defecto</option>
+          <option value="date">Fecha: cercana primero</option>
+          <option value="date-desc">Fecha: lejana primero</option>
+          <option value="price">Inscripción: bajo a alto</option>
+          <option value="price-desc">Inscripción: alto a bajo</option>
+        </select>
+      </form>
+    </div>
+
+    <!-- Tarjetas -->
+    <div class="d-flex flex-wrap justify-content-center align-items-stretch gap-3 m-2">
+      <div
+        *ngFor="let t of filteredTournaments | paginate: { itemsPerPage: itemsPerPage, currentPage: page }"
+        class="card bg-dark text-white border border-secondary shadow-sm torneo-card"
+        style="width: 300px;">
+
+        <!-- Imagen cuadrada 1:1 -->
+        <div class="ratio" style="--bs-aspect-ratio: 141%;">
+          <img [src]="badgeFor(t.nombre)" [alt]="t.nombre" class="card-img-top object-fit-contain rounded-top">
+        </div>
+
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title mb-1 text-truncate">{{ t.nombre }}</h5>
+          <p class="card-subtitle text-muted small mb-2">
+            {{ t.sede }}  {{ t.fechaInicio | date:'dd/MM/yyyy' }}
+          </p>
+            <p class="card-subtitle text-muted small mb-2">
+            Inscripción hasta: {{ t.fechaCierreInscripcion | date:'dd/MM/yyyy' }}
+          </p>
+
+          <div class="mb-2 d-flex flex-wrap gap-2 align-items-center">
+            <span class="badge bg-info">{{ t.modalidad }}</span>
+            <!-- todas las categorías del torneo -->
+            <ng-container *ngFor="let c of t.categorias">
+              <span class="badge bg-secondary">{{ c }}</span>
+            </ng-container>
+          </div>
+
+          <div class="mt-auto d-flex justify-content-between align-items-center">
+            <span class="fw-bold">{{ t.status }}</span>
+            <button class="btn btn-outline-light btn-sm" (click)="verTorneo(t)">Ver detalles</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Paginación -->
+    <pagination-controls
+      class="d-flex justify-content-center mt-3 fw-bold"
+      (pageChange)="page = $event"
+      previousLabel="Anterior"
+      nextLabel="Siguiente">
+    </pagination-controls>
+  </div>
 </div>
+
+

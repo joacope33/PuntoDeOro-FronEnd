@@ -1,0 +1,467 @@
+<form #f="ngForm" (ngSubmit)="guardar(config)" class="torneo-form bg-dark text-white rounded" novalidate>
+
+  <div class="row ">
+    <!-- ===================== Datos generales ===================== -->
+    <!-- ===================== Modalidad y categorías ===================== -->
+    <div class="row">
+      <fieldset class="m-4 col w-auto">
+        <legend>Datos generales</legend>
+
+        <label class="form-label w-100">
+          Nombre del torneo <span class="text-danger">*</span>
+          <div class="input-group">
+            <span class="input-group-text bg-secondary text-white">🏷️</span>
+            <input type="text" name="nombre" [(ngModel)]="config.nombre" required class="form-control bg-dark text-white border-secondary" placeholder="Ej. Torneo Apertura"/>
+          </div>
+        </label>
+
+        <label class="form-label w-100">
+          Sede / Club <span class="text-danger">*</span>
+          <div class="input-group">
+            <span class="input-group-text bg-secondary text-white">📍</span>
+            <input type="text" name="sede" [(ngModel)]="config.sede" required class="form-control bg-dark text-white border-secondary" placeholder="Ej. Club Bragado"/>
+          </div>
+        </label>
+
+        <label class="form-label w-100">
+          Dirección / Ciudad
+          <div class="input-group">
+            <span class="input-group-text bg-secondary text-white">🗺️</span>
+            <input type="text" name="direccion" [(ngModel)]="config.direccion" class="form-control bg-dark text-white border-secondary" placeholder="Calle 123, Ciudad"/>
+          </div>
+        </label>
+
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label class="form-label w-100">
+              Fecha inicio <span class="text-danger">*</span>
+              <div class="input-group">
+                <span class="input-group-text bg-secondary text-white">📅</span>
+                <input type="date" name="fechaInicio" [(ngModel)]="config.fechaInicio" required class="form-control bg-dark text-white border-secondary"/>
+              </div>
+            </label>
+          </div>
+          <div class="col-md-6">
+            <label class="form-label w-100">
+              Fecha fin <span class="text-danger">*</span>
+              <div class="input-group">
+                <span class="input-group-text bg-secondary text-white">📅</span>
+                <input type="date" name="fechaFin" [(ngModel)]="config.fechaFin" required class="form-control bg-dark text-white border-secondary"/>
+              </div>
+            </label>
+          </div>
+        </div>
+      </fieldset>
+
+
+      <fieldset class="m-4 col w-auto">
+        <legend>Modalidad y categorías</legend>
+
+        <label class="form-label w-100">
+          Modalidad
+          <div class="input-group">
+            <span class="input-group-text bg-secondary text-white">🎾</span>
+            <select name="modalidad" [(ngModel)]="config.modalidad" class="form-select bg-dark text-white border-secondary">
+              <option *ngFor="let m of opcionesModalidad" [value]="m">{{ m }}</option>
+            </select>
+          </div>
+        </label>
+
+        <label class="form-label w-100">
+          Categorías <small class="text-muted">(Ctrl/Cmd + click para múltiples)</small>
+          <div class="input-group">
+            <span class="input-group-text bg-secondary text-white">🏷️</span>
+            <select name="categorias" multiple size="6" [(ngModel)]="config.categorias" class="form-select bg-dark text-white border-secondary">
+              <option *ngFor="let c of opcionesCategorias" [value]="c">{{ c }}</option>
+            </select>
+          </div>
+        </label>
+      </fieldset>
+    </div>
+
+    <!-- ===================== Cuadros y formato ===================== -->
+    <!-- ===================== Reglas de partido ===================== -->
+    <div class="row">
+      <fieldset class="m-4 col w-auto">
+        <legend>Cuadros y formato</legend>
+
+        <label class="form-label w-100">
+          Tipo de cuadro
+          <div class="input-group">
+            <span class="input-group-text bg-secondary text-white">🧩</span>
+            <select class="form-select bg-dark text-white border-secondary w-auto " name="tipoCuadro" [(ngModel)]="config.tipoCuadro">
+              <option *ngFor="let t of opcionesTipoCuadro" [value]="t">{{ t }}</option>
+            </select>
+          </div>
+        </label>
+
+        <label class="form-label w-100" *ngIf="config.tipoCuadro === 'Eliminacion'|| config.tipoCuadro === 'Fase Grupos+Eliminacion'">
+          Tamaño de cuadro
+          <div class="input-group">
+            <span class="input-group-text bg-secondary text-white">#</span>
+            <select name="tamanioCuadro" [(ngModel)]="config.tamanioCuadro" class="form-select bg-dark text-white border-secondary">
+              <option *ngFor="let n of opcionesTamCuadro" [value]="n">{{ n }}</option>
+            </select>
+          </div>
+        </label>
+
+        <div class="row g-3">
+          <div class="col-md-12">
+            <label class="form-label w-100">
+              Orden de Clasificación
+              <div class="input-group">
+                <span class="input-group-text bg-secondary text-white">📈</span>
+                <select name="seeding" [(ngModel)]="config.seeding" class="form-select bg-dark text-white border-secondary">
+                  <option value="Manual">Manual</option>
+                  <option value="Aleatorio">Sorteo</option>
+                </select>
+              </div>
+            </label>
+          </div>
+
+        </div>
+      </fieldset>
+
+      
+      <fieldset class="m-4 col w-auto">
+        <legend>Reglas de partido</legend>
+
+        <div class="row g-3 mx-2">
+          <div class="col-md-12 border">
+            <span class="d-block mb-2 text-center border-bottom">Cantidad de Set´s</span>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="sets1" name="sets" [value]="1" [(ngModel)]="config.sets">
+              <label class="form-check-label" for="sets1">1 Set</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="sets3" name="sets" [value]="3" [(ngModel)]="config.sets">
+              <label class="form-check-label" for="sets3">3 Set´s</label>
+            </div>
+          </div>
+
+          <div class="col-md-12 border">
+            <div class="form-check">
+              <span class="d-block mb-2 text-center border-bottom">Opciones alternas</span>
+              <input class="form-check-input" type="checkbox" id="noAd" name="noAd" [(ngModel)]="config.noAd">
+              <label class="form-check-label" for="noAd">Punto de Oro</label>
+            </div>
+            <div class="form-check mt-2">
+              <input class="form-check-input" type="checkbox" id="superTB" name="superTB" [(ngModel)]="config.superTB">
+              <label class="form-check-label" for="superTB">Super tie-break a 11 (3er set)</label>
+            </div>
+          </div>
+        </div>
+
+        <label class="form-label w-100 mt-3">
+          Pelota oficial (opcional)
+          <div class="input-group">
+            <span class="input-group-text bg-secondary text-white">🏐</span>
+            <input type="text" name="pelota" [(ngModel)]="config.pelota" class="form-control bg-dark text-white border-secondary" placeholder="Marca / modelo"/>
+          </div>
+        </label>
+      </fieldset>
+    </div>
+
+
+    <div class="row">
+          <!-- ===================== Canchas y horarios ===================== -->
+
+      <fieldset class="m-4 col w-auto">
+        <legend>Canchas y horarios</legend>
+
+        <div class="row g-3">
+          <div class="col-12">
+            <label class="form-label w-100">
+              Cantidad de canchas
+              <div class="input-group">
+                <span class="input-group-text bg-secondary text-white">🏟️</span>
+                <input type="number" name="canchas" min="1" [(ngModel)]="config.canchas" class="form-control bg-dark text-white border-secondary" placeholder="1"/>
+              </div>
+            </label>
+          </div>
+          <div class="col-12">
+            <label class="form-label w-100">
+              Duración estimada (min)
+              <div class="input-group">
+                <span class="input-group-text bg-secondary text-white">Min</span>
+                <input type="number" name="duracionPartidoMin" min="30" step="5" [(ngModel)]="config.duracionPartidoMin" class="form-control bg-dark text-white border-secondary" placeholder="90"/>
+                <span class="input-group-text bg-secondary text-white">min</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-12">
+            <label class="form-label w-100">
+              Descanso mínimo (min)
+              <div class="input-group">
+                <span class="input-group-text bg-secondary text-white">⏱️</span>
+                <input type="number" name="descansoMin" min="0" step="5" [(ngModel)]="config.descansoMin" class="form-control bg-dark text-white border-secondary" placeholder="10"/>
+                <span class="input-group-text bg-secondary text-white">min</span>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <div class="stack mt-3">
+          <div class="row col-12 mx-auto between align-items-center">
+            <strong>Franjas horarias</strong>
+            <button type="button" class="btn btn-primary" (click)="agregarFranja()">+ Agregar franja</button>
+          </div>
+
+          @for (franja of config.franjasHorarias; track $index) {
+          <div class="row g-3 align-items-center">
+            <div class="col-md-6">
+              <label class="form-label w-100">
+                Desde
+                <div class="input-group">
+                  <span class="input-group-text bg-secondary text-white">🕘</span>
+                  <input type="time" [name]="'desde_'+$index" [(ngModel)]="franja.desde" class="form-control bg-dark text-white border-secondary"/>
+                </div>
+              </label>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label w-100">
+                Hasta
+                <div class="input-group">
+                  <span class="input-group-text bg-secondary text-white">🕚</span>
+                  <input type="time" [name]="'hasta_'+$index" [(ngModel)]="franja.hasta" class="form-control bg-dark text-white border-secondary"/>
+                </div>
+              </label>
+            </div>
+            <div class="col-md-12 ">
+              <button type="button" class="btn btn-danger btn-sm w-100" (click)="quitarFranja($index)">Quitar</button>
+            </div>
+          </div>
+          }
+        </div>
+      </fieldset>
+    <!-- ===================== Inscripción y pagos ===================== -->
+
+      <fieldset class="m-4 col w-auto">
+        <legend>Inscripción y pagos</legend>
+
+        <label class="form-label w-100">
+          Costo de inscripción (por pareja)
+          <div class="input-group">
+            <span class="input-group-text bg-secondary text-white">$</span>
+            <input type="number" name="costoInscripcion" min="0" step="100" [(ngModel)]="config.costoInscripcion" class="form-control bg-dark text-white border-secondary" placeholder="0"/>
+            <span class="input-group-text bg-secondary text-white">ARS</span>
+          </div>
+        </label>
+
+        <label class="form-label w-100">
+          Métodos de pago (múltiple)
+          <div class="input-group">
+            <span class="input-group-text bg-secondary text-white">💳</span>
+            <select name="pagos" multiple size="4" [(ngModel)]="config.pagos" class="form-select bg-dark text-white border-secondary">
+              <option *ngFor="let p of opcionesPagos" [value]="p">{{ p }}</option>
+            </select>
+          </div>
+        </label>
+
+        <label class="form-label w-100">
+          Fecha límite de inscripción
+          <div class="input-group">
+            <span class="input-group-text bg-secondary text-white">📅</span>
+            <input type="date" name="fechaCierreInscripcion" [(ngModel)]="config.fechaCierreInscripcion" class="form-control bg-dark text-white border-secondary"/>
+          </div>
+        </label>
+      </fieldset>
+    </div>
+
+    <!-- ===================== Ranking y premiación ===================== -->
+    <!-- ===================== Comunicación ===================== -->
+    <div class="row">
+      <fieldset class="m-4 col w-auto">
+        <legend>Ranking y premiación</legend>
+
+        <div class="row g-3">
+          <div class="col-md-12">
+            <label class="form-label w-100">
+              Puntos por victoria
+              <div class="input-group">
+                <span class="input-group-text bg-secondary text-white">🏆</span>
+                <input type="number" name="p_victoria" min="0" [(ngModel)]="config.puntos.victoria" class="form-control bg-dark text-white border-secondary" placeholder="Ej. 50"/>
+              </div>
+            </label>
+          </div>
+          <div class="col-md-12">
+            <label class="form-label w-100">
+              Puntos por derrota
+              <div class="input-group">
+                <span class="input-group-text bg-secondary text-white">🎯</span>
+                <input type="number" name="p_derrota" min="0" [(ngModel)]="config.puntos.derrota" class="form-control bg-dark text-white border-secondary" placeholder="Ej. 10"/>
+              </div>
+            </label>
+          </div>
+          <div class="col-md-12">
+            <label class="form-label w-100">
+              Bonus campeón
+              <div class="input-group">
+                <span class="input-group-text bg-secondary text-white">⭐</span>
+                <input type="number" name="p_bonusFinal" min="0" [(ngModel)]="config.puntos.bonusFinal" class="form-control bg-dark text-white border-secondary" placeholder="Ej. 100"/>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <label class="form-label w-100 mt-2">
+          Premios (texto)
+          <div class="input-group">
+            <span class="input-group-text bg-secondary text-white">🎁</span>
+            <input type="text" name="premios" [(ngModel)]="config.premios" class="form-control bg-dark text-white border-secondary" placeholder="Trofeos, vouchers, $ ..."/>
+          </div>
+        </label>
+      </fieldset>
+
+      <fieldset class="m-4 col w-auto">
+        <legend>Comunicación</legend>
+
+        <label class="form-label w-100">
+          Reglamento (URL)
+          <div class="input-group">
+            <span class="input-group-text bg-secondary text-white">🔗</span>
+            <input type="url" name="reglamentoUrl" [(ngModel)]="config.reglamentoUrl" class="form-control bg-dark text-white border-secondary" placeholder="https://…"/>
+          </div>
+        </label>
+
+        <div class="row mt-2">
+          <div class="stack">
+            <span class="mb-1">Canal de avisos</span>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="avisoWA" name="canalAvisos" value="WhatsApp" [(ngModel)]="config.canalAvisos">
+              <label class="form-check-label" for="avisoWA">WhatsApp</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="avisoEmail" name="canalAvisos" value="Email" [(ngModel)]="config.canalAvisos">
+              <label class="form-check-label" for="avisoEmail">Email</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="avisoWeb" name="canalAvisos" value="Web" [(ngModel)]="config.canalAvisos">
+              <label class="form-check-label" for="avisoWeb">Web</label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+
+    <!-- ===================== Staff ===================== -->
+<fieldset class="m-4 col w-auto">
+  <legend>Staff</legend>
+  <div class="row g-3">
+    <div class="col-6">
+      <label class="form-label w-100 mb-1">Torneo Fiscalizado:</label>
+      <div class="input-group">
+        <span class="input-group-text bg-secondary text-white">✅</span>
+        <select name="fiscalizado" [(ngModel)]="config.fiscalizado" class="form-select bg-dark text-white border-secondary">
+          <option [ngValue]="true">Sí</option>
+          <option [ngValue]="false">No</option>
+        </select>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- Fiscalización -->
+  <ng-container *ngIf="config.fiscalizado">
+    <div class="row g-3 align-items-center mb-3">
+      <div class="col-md-5">
+        <label class="form-label w-100 mb-1">Nombre (Fiscalización)</label>
+        <div class="input-group">
+          <span class="input-group-text bg-secondary text-white">👤</span>
+          <input
+            type="text"
+            class="form-control bg-dark text-white border-secondary"
+            placeholder="Nombre"
+            name="arbitroGeneralNombre"
+            [(ngModel)]="config.arbitroGeneral.nombre"
+          />
+        </div>
+      </div>
+
+      <div class="col-md-5">
+        <label class="form-label w-100 mb-1">Apellido (Fiscalización)</label>
+        <div class="input-group">
+          <span class="input-group-text bg-secondary text-white">🪪</span>
+          <input
+            type="text"
+            class="form-control bg-dark text-white border-secondary"
+            placeholder="Apellido"
+            name="arbitroGeneralApellido"
+            [(ngModel)]="config.arbitroGeneral.apellido"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Asistentes de mesa -->
+    <div class="row col-12 mx-auto between align-items-center mb-2">
+      <strong>Asistentes de mesa</strong>
+      <button type="button" class="btn btn-primary btn-sm" (click)="agregarFiscal()">+ Agregar asistente</button>
+    </div>
+
+    <div *ngFor="let asistente of config.asistentesMesa; let i = index" class="row g-3 align-items-center mb-2">
+      <div class="col-md-5">
+        <label class="form-label w-100 mb-1">Nombre</label>
+        <div class="input-group">
+          <span class="input-group-text bg-secondary text-white">👤</span>
+          <input
+            type="text"
+            class="form-control bg-dark text-white border-secondary"
+            placeholder="Nombre"
+            [name]="'asistente_nombre_' + i"
+            [(ngModel)]="asistente.nombre"
+          />
+        </div>
+      </div>
+
+      <div class="col-md-5">
+        <label class="form-label w-100 mb-1">Apellido</label>
+        <div class="input-group">
+          <span class="input-group-text bg-secondary text-white">🪪</span>
+          <input
+            type="text"
+            class="form-control bg-dark text-white border-secondary"
+            placeholder="Apellido"
+            [name]="'asistente_apellido_' + i"
+            [(ngModel)]="asistente.apellido"
+          />
+        </div>
+      </div>
+
+      <div class="col-md-2 d-grid">
+        <label class="form-label invisible">.</label>
+        <button type="button" class="btn btn-danger btn-sm" (click)="quitarFiscal(i)">Quitar</button>
+      </div>
+    </div>
+  </ng-container>
+</fieldset>
+<fieldset class="m-4 col w-auto">
+  <legend>Logo del torneo (opcional)</legend>
+  <div class="row g-3 align-items-center mb-3">
+    <div class="col-md-12">
+      <label class="form-label w-100 mb-1">Subir logo</label>
+      <div class="input-group">
+        <span class="input-group-text bg-secondary text-white">🖼️</span>
+        <input
+          type="file"
+          class="form-control bg-dark text-white border-secondary"
+          name="logoTorneo"
+          (change)="onFileSelected($event)"
+          accept="image/*"
+        />
+      </div>
+    </div>
+  </div>
+
+</fieldset>
+
+  </div>
+
+  <!-- ===================== Botones ===================== -->
+  <div class="row end p-3">
+    <button class="btn btn-outline-primary m-1" type="submit" [disabled]="f.invalid">Guardar</button>
+    <button class="btn btn-outline-secondary m-1" type="button" (click)="f.resetForm(defaultConfig)">Reset</button>
+  </div>
+
+</form>
