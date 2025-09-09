@@ -7,16 +7,8 @@
 
 .nav-link:hover {
   color: white !important;
-  background-color: var(--color-magenta);
   border-radius: 7px;
   font-weight: bold;
 }
 
 
-
-li a:hover {
-  color: white !important;
-  background-color: var(--color-magenta, #a025b6) !important;
-  font-weight: bold;
-  border-radius: 5px;
-}

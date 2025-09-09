@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-
+import {ConfigTorneo} from '../main/torneos/ConfigTorneo';
 // Ajustá la URL base según tu entorno
 const API = 'http://localhost:3000/';
 @Injectable({
@@ -23,4 +23,8 @@ constructor(private http: HttpClient) {}
       body: { pathToDelete }
     });
   }
+
+  obtenerTorneos(): Observable<ConfigTorneo[]> {
+      return this.http.get<ConfigTorneo[]>('assets/torneos/torneos.json');
+    }
 }

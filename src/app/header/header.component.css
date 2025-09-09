@@ -46,3 +46,10 @@
     font-size: 0.9rem;
   }
 }
+
+.header {
+  background-color: #1982eb; /* Color de fondo oscuro */
+  border-radius: 5px; /* Bordes redondeados */
+  width: 100%;
+  z-index: 1000;
+}
